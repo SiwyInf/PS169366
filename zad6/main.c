@@ -6,7 +6,7 @@ int main()
     double a;
     printf("Wpisz liczbe zmiennoprzecinkowa\n");
     scanf("%lf",&a);
-    double potega = a * a;
+    double potega = a * 2;
     printf("Potega to: %.2lf", potega);
     return 0;
 }
