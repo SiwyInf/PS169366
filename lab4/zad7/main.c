@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-float initFlts(){
+float *initFlts(){
 float w1 = 0.5;
 float w2 = 1.5;
 float w3 = 2.5;
