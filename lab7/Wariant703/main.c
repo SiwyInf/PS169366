@@ -6,7 +6,7 @@ int sum_of_elements_greater_than_average(int n, int numbers[]) {
     for (int i = 0; i < n; i++) {
         sum += numbers[i];
     }
-    int srednia = sum / n;
+    double srednia = sum / n;
 
     int sumaWiekszych = 0;
     for (int i = 0; i < n; i++) {
